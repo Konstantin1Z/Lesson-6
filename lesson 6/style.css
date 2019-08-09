@@ -1,0 +1,28 @@
+.buttons
+{
+display: flex;
+flex-direction: row;
+justify-content: center;	
+flex-wrap: wrap;
+}
+.buttons div
+{
+width: 300px;
+/*height: 500px;*/
+background-color: skyblue;
+margin: 10px 5px 10px 5px;
+text-align: center;
+}
+
+.buttons div h3
+{
+width: 298px;
+height: 70px;
+border-bottom: 1px solid black;
+}
+
+#result
+{
+border: 1px solid black; height: 50px; width: 150px; margin-left: 25%;
+}
+
